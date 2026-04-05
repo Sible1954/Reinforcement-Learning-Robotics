@@ -1,24 +1,24 @@
 
-# Reinforcement Learning Robotics
+# Reinforcement Learning for Robotics
 
-Exploring reinforcement learning techniques for autonomous robot navigation and control in complex environments.
+A simulation environment for applying reinforcement learning techniques to robotics tasks.
 
 ## Features
-- Implementations of various RL algorithms (e.g., Q-learning, DQN, PPO)
-- Simulation environment integration
-- Robot control interfaces
-- Performance visualization and analysis
+- GridWorld simulation environment
+- Q-learning agent implementation
+- Modular design for easy extension to new environments and agents
+- Safe and efficient code with Rust
 
 ## Getting Started
 
 ### Prerequisites
-- Rustup (Rust programming language installer)
+- Rust 1.58+
+- Cargo
 
 ### Installation
 ```bash
 git clone https://github.com/Sible1954/Reinforcement-Learning-Robotics.git
 cd Reinforcement-Learning-Robotics
-cargo build --release
 ```
 
 ### Usage
